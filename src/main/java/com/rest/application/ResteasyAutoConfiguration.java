@@ -1,10 +1,5 @@
 package com.rest.application;
 
-/*
- * Copyright 2015, LexisNexis.
- */
-
-
 import org.jboss.resteasy.plugins.spring.SpringBeanProcessor;
 import org.jboss.resteasy.spi.ResteasyDeployment;
 import org.jboss.resteasy.spi.ResteasyProviderFactory;

@@ -1,7 +1,3 @@
-/*
- * Copyright 2015, LexisNexis.
- */
-
 package com.rest.application;
 
 import java.io.IOException;
