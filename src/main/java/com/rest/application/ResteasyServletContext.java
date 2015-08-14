@@ -10,8 +10,10 @@ import javax.ws.rs.ext.Provider;
 
 import org.jboss.resteasy.annotations.interception.ServerInterceptor;
 import org.jboss.resteasy.spi.ResteasyProviderFactory;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.stereotype.Component;
 
+@ConditionalOnBean(ServletContext.class)
 @Component
 @Provider
 @ServerInterceptor
